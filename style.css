@@ -87,10 +87,47 @@
     margin: auto;
 }
 
+@media screen and (max-width:1520px) {
+    .new-drops{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:1120px) {
+    .bg_img{
+        background-color: rgb(187, 187, 245);
+        height: 100vh;
+        width: 100vw;
+    }
+}
+@media screen and (max-width:870px) {
+
+    .new-drops{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+        gap: 1rem;
+    }
+    .bg_img{
+        background-color: rgb(187, 187, 255);
+        height: 100vh;
+        width: 100vw;
+    }
+}
 /* sunu */
 *{
     margin: 0;
     padding: 0;
+}
+.main_container{
+    height: 100vh;
+    width: 100vw;
 }
 .bg_img{
     background-image: url(Main\ Banner.png);
