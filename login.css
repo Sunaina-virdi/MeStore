@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.form{
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: bisque;
+    font-family: 'Protest Revolution', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+}
+#small-text{
+    font-size: x-small;
+    
+}
+#small-text > a, #forgot > a{
+    font-size: x-small;
+    color:bisque;
+}
+.password{
+    display: flex;
+    gap: 95px;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    cursor: pointer;
+}
+#username,
+#pass{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+   
+}
+.sign-in-button{
+    background-color: blue;
+    color: white;
+}
